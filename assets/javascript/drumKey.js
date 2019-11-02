@@ -8,5 +8,15 @@ window.addEventListener("keydown", function(e) {
     if(!audio) 
     return;
     audio.play();
+
+    
     
 });
+
+
+
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
