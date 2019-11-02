@@ -2,66 +2,105 @@
 <html lang="en">
 
 <head>
-	<title>Drumbit</title>
-	<!-- Required meta tags -->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Drumbit</title>
+    <!-- Required meta tags -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
-	
 
 
-	<div class="container-fluid">
 
-		<div class="card1">
+    <div class="container-fluid">
 
-			<div class="card-body">
-				<!-- <p > Select your Options [r, p , or s] </p> -->
-				<h1 class="display-3"> DrumBit!</h1>
-				<span id="userSelect" class="lead1">Let's Play Drum!</span>
+        <div class="card1">
 
-				<!-- <div>
+            <div class="card-body">
+                <!-- <p > Select your Options [r, p , or s] </p> -->
+                <h1 class="display-3"> DrumBit!</h1>
+                <span id="userSelect" class="lead1">Let's Play Drum!</span>
+
+                <!-- <div>
 					<audio id="myAudio">
 						<source src="assets/music/birdsChirping.mp3" type="audio/mpeg">
 					</audio>
 				</div> -->
 
-			</div>
-		</div>
+            </div>
+        </div>
 
 
         <div class="keys">
             <div data-key="65" class="key">
-              <kbd>A</kbd>
-              <span class="sound">clap</span>
+                <kbd>A</kbd>
+                <span class="sound">clap</span>
             </div>
+            <div data-key="65" class="key">
+                <kbd>S</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="65" class="key">
+                <kbd>D</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="65" class="key">
+                <kbd>F</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="65" class="key">
+                <kbd>G</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="65" class="key">
+                <kbd>H</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="65" class="key">
+                <kbd>J</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="65" class="key">
+                <kbd>K</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="65" class="key">
+                <kbd>L</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="65" class="key">
+                <kbd>;</kbd>
+                <span class="sound">clap</span>
+            </div>
+        </div>
 
-            <button onclick="playAudio()" type="button">Play Audio</button>
     </div>
-    
+
+    <button onclick="playAudio()" type="button">Play Audio</button>
+    </div>
+
     <audio data-key="65" id="myAudio" src="assets/music/clap.wav"></audio>
 
-	<!-- linked to javascript fiel -->
-	<script src="assets\javascript\drumKey.js"> </script>
+    <!-- linked to javascript fiel -->
+    <script src="assets\javascript\drumKey.js"> </script>
 
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.js"
-		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-		crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-		crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 
 

@@ -35,6 +35,14 @@ text-align: center;
 
 color: #ee0404;
 }
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
 .key {
     border: .4rem solid black;
     border-radius: .5rem;
