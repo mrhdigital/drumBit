@@ -41,33 +41,37 @@ color: #ee0404;
  .keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
+    min-height: 400px; 
     align-items: center;
     justify-content: center;
   } 
 .key {
-    border: .4rem solid rgb(243, 109, 109);
-    border-radius: .5rem;
+    border: 2px solid rgb(5, 5, 5);
+    border-radius: 10px;
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
     transition: all .07s ease;
     width: 10rem;
     text-align: center;
-    color: white;
+    color: rgb(177, 47, 108);
     /* background: rgba(0,0,0,0.4); */
     /* text-shadow: 0 0 .5rem black; */
   }
 
-  .sound {
+  .sound1 {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
   }
-  kbd {
+  kbd1 {
     display: block;
     /* font-size: 4rem; */
     color: rgb(184, 32, 32);
     font-size: 20px;
   }
+  /* .btn {
+    display: block;
+    font-size: 20px;
+  } */
