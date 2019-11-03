@@ -1,9 +1,9 @@
-html {
+/* html {
     font-size: 10px;
     /* background: url("../images/drumBit.jpg!d") top center; */
 
-    background-size: cover;
-  }
+    /* background-size: cover;
+  } */ */
   
 
 
@@ -36,13 +36,13 @@ text-align: center;
 color: #ee0404;
 }
 
-.keys {
+/* .keys {
     display: flex;
     flex: 1;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-  }
+  } */
 .key {
     border: .4rem solid black;
     border-radius: .5rem;

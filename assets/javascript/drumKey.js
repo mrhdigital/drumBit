@@ -17,7 +17,7 @@ window.addEventListener("keydown", function(e) {
 
 $('.key').click(function() {
     var keyCode = $(this).data('key');      
-    alert(keyCode);  
+    //alert(keyCode);  
     const audio = document.querySelector(`audio[data-key ="${keyCode}"]`);
     console.log(audio);    
    // if any other keys are pressed exit the function
@@ -28,11 +28,3 @@ $('.key').click(function() {
     audio.play(); 
 } );
 
-
-var x = document.getElementById("myAudio"); 
-
-function playAudio() { 
-  x.play(); 
-} 
-
-onclick="myFunction()"
