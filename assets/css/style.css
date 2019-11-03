@@ -55,8 +55,8 @@ color: #ee0404;
     width: 10rem;
     text-align: center;
     color: white;
-    background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .5rem black;
+    /* background: rgba(0,0,0,0.4); */
+    /* text-shadow: 0 0 .5rem black; */
   }
 
   .sound {
@@ -67,5 +67,7 @@ color: #ee0404;
   }
   kbd {
     display: block;
-    font-size: 4rem;
+    /* font-size: 4rem; */
+    color: rgb(184, 32, 32);
+    font-size: 20px;
   }
