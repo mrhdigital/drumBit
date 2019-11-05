@@ -50,20 +50,24 @@ color: #ee0404;
     border-radius: 10px;
     margin: 5px;
     font-size: 30px;
-    padding: 1rem .5rem;
-    transition: all .07s ease;
-    width: 10rem;
+    padding: 16px 8px;
+    transition: all .07s;
+    width: 100px;
     text-align: center;
     color: rgb(177, 47, 108);
     /* background: rgba(0,0,0,0.4); */
     /* text-shadow: 0 0 .5rem black; */
   }
-
-  .sound1 {
-    font-size: 1.2rem;
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 16px #ffc600;
+  }
+  .sound {
+    font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: .1rem;
-    color: #ffc600;
+    letter-spacing: 2px;
+    color:  #ee0404;
   }
   kbd {
     display: block;
