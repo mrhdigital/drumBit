@@ -33,3 +33,12 @@ $('.key').click(function() {
     key.classList.add('playing');
 } );
 
+function removeTransition(e) {
+
+    if(e.propertyName !== 'transform')
+    return;
+    console.log(e.propertyName);
+}
+
+const keys = document.querySelectorAll('.key');
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
