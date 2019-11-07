@@ -5,7 +5,7 @@
 CheckOut drumBit: 👍 https://mrhdigital.github.io/drumBit/index.html
 
 
-Technologies Used:
+### Technologies Used
 
 - HTML
 - CSS
